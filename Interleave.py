@@ -31,3 +31,18 @@ interleave =  Interleave(bits)
 print "interleave = " , interleave
 deinterleave = deInterleave(interleave)
 print "deinterleave" ,deinterleave
+
+#Results=====
+"""interleave =  [['0' '0' '0' '0' '0']
+ ['1' '1' '1' '1' '1']
+ ['1' '1' '1' '1' '1']
+ ['0' '0' '0' '0' '0']
+ ['1' '0' '1' '1' '1']
+ ['0' '1' '1' '1' '1']
+ ['0' '0' '0' '0' '1']
+ ['0' '1' '0' '0' '1']]
+deinterleave [['0' '1' '1' '0' '1' '0' '0' '0']
+ ['0' '1' '1' '0' '0' '1' '0' '1']
+ ['0' '1' '1' '0' '1' '1' '0' '0']
+ ['0' '1' '1' '0' '1' '1' '0' '0']
+ ['0' '1' '1' '0' '1' '1' '1' '1']] """
